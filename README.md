@@ -13,7 +13,7 @@ Además, proporciona la opción de consultar la lista de empleados, la cual esta
 
 
 
-```
+```cpp
 #include <iostream>
 #include <string>
 struct Empleado {
@@ -33,7 +33,7 @@ Este codigo o estructura funciona a modo de nodos.
 
 La estructura principal del programa incluye la definición de la clase `Empleado`, que actúa como un nodo en la lista enlazada. Cada empleado tiene campos para almacenar información personal y profesional, así como punteros al siguiente y anterior empleado en la lista. La clase `ListaEmpleados` gestiona la lista enlazada, permitiendo la adición de nuevos empleados y la visualización ordenada de la lista.
 
-```
+```cpp
 // Implementación del método para agregar un nuevo empleado a la lista
 void ListaEmpleados::agregarEmpleado() {
     Empleado* nuevoEmpleado = new Empleado;
@@ -61,7 +61,7 @@ void ListaEmpleados::agregarEmpleado() {
 
 De esta manera se programo el menu de opciones que te recive.
 
-```
+```cpp
 void mostrarMenu(ListaEmpleados& lista) {
     char opcion;
     do {
