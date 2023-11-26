@@ -7,7 +7,7 @@ Este código en C++ implementa un sistema simple de gestión de empleados median
 - Nombre.
 - Apellidos.
 - Edad.
-- Antigüedad en meses.
+- Antigüedad (en meses).
 
 Además, proporciona la opción de consultar la lista de empleados, la cual estará ordenada por antigüedad al seleccionar la opción correspondiente en el menú.
 
