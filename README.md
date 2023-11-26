@@ -1,5 +1,8 @@
  ## Descripcion y Explicacion del codigo en general
 Este código en C++ implementa un sistema simple de gestión de empleados mediante una lista enlazada y utiliza el algoritmo de ordenamiento Quicksort para ordenar los empleados según su antigüedad en la empresa. La aplicación permite al usuario agregar nuevos empleados con información como:
+<div align="center">
+<img src="Icon(s)/icon.png" width= "10%" C >
+</div>
 
 - Nombre.
 - Apellidos.
@@ -25,8 +28,10 @@ struct Empleado {
 
 ```
 Este codigo o estructura funciona a modo de nodos.
-Empleado* next;  // Puntero al siguiente nodo
-Empleado* prev;  // Puntero al nodo anterior
+- Empleado* next;  // Puntero al siguiente nodo
+- Empleado* prev;  // Puntero al nodo anterior
+
+La estructura principal del programa incluye la definición de la clase `Empleado`, que actúa como un nodo en la lista enlazada. Cada empleado tiene campos para almacenar información personal y profesional, así como punteros al siguiente y anterior empleado en la lista. La clase `ListaEmpleados` gestiona la lista enlazada, permitiendo la adición de nuevos empleados y la visualización ordenada de la lista.
 
 ```
 // Implementación del método para agregar un nuevo empleado a la lista
