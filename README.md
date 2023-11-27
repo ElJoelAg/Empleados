@@ -201,7 +201,7 @@ async def error(update: Update, context: ContextTypes):
     ...
 ```
 
-### Punto de Entrada Principal
+### Punto de Entrada Principal.
 Configura y ejecuta la aplicación de Telegram.
 
 ```python
